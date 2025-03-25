@@ -35,7 +35,7 @@ Check out the video tutorial for this project [here](https://youtu.be/DgPA9EitUE
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Saifeddine99/AI_RESEARCH
 cd AI_RESEARCH
 ```
 
