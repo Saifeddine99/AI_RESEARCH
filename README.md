@@ -39,7 +39,7 @@ Check out the video tutorial for this project [here](https://youtu.be/DgPA9EitUE
 
 ### PDF Summarization Feature
 
-[View PDF Summarization Flowchart](pdf_summ.drawio.html)
+[View PDF Summarization Flowchart](https://drive.google.com/file/d/18o04OPKTDSwrrra6XMzCexbs8Vwvv92D/view?usp=sharing)
 
 - **Libraries Used:**
 
