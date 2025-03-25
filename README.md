@@ -23,6 +23,39 @@ Check out the video tutorial for this project [here](https://youtu.be/DgPA9EitUE
 - Caching system for improved performance
 - Powered by Google's Gemini 1.5 Flash model
 
+## 🔧 Technical Implementation
+
+### Audio Conversation Feature
+
+- **Libraries Used:**
+
+  - `streamlit`: Web application framework for the user interface
+  - `pathlib`: File path handling
+
+- **Key Components:**
+  - Audio generation using Google NotebookLM
+  - WAV file playback through Streamlit's native audio player
+  - HTML-based UI components for better user experience
+
+### PDF Summarization Feature
+
+- **Libraries Used:**
+
+  - `langchain_community`: Document loading and processing
+  - `langchain_google_genai`: Integration with Google's Generative AI
+  - `streamlit`: Web interface and file upload handling
+  - `python-dotenv`: Environment variable management
+  - `PyPDFLoader`: PDF document parsing
+
+- **Key Algorithms & Methods:**
+  - Rate limiting (15 requests/minute) using deque-based window algorithm
+  - Document chunking for large PDFs (500,000 character chunks)
+  - Caching system with 1-hour TTL (Time To Live)
+  - Two-stage summarization for large documents:
+    1. Individual chunk summarization
+    2. Combined chunks final summarization
+  - Powered by Gemini 1.5 Flash model for text generation
+
 ## 🚀 Quick Start
 
 ### Prerequisites
