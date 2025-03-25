@@ -1,0 +1,11 @@
+# Virtual Environment
+venv/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+
+# Upload PDF
+upload.pdf
