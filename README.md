@@ -39,6 +39,8 @@ Check out the video tutorial for this project [here](https://youtu.be/DgPA9EitUE
 
 ### PDF Summarization Feature
 
+[View PDF Summarization Flowchart](pdf_summ.drawio.html)
+
 - **Libraries Used:**
 
   - `langchain_community`: Document loading and processing
